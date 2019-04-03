@@ -1,0 +1,22 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${file}"
+            },
+            {
+                "name": "Launch via npm",
+                "type": "node",
+                "request": "launch",
+                "cwd": "${workspaceRoot}",
+                "runtimeExecutable": "npm",
+                "runtimeArgs": [
+                    "run-script", "debug"
+                ],
+                "port": 39229
+            }
+        ]
+    }

@@ -1,0 +1,16 @@
+{
+  "name": "page-reloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect=39229 --debug-brk ./index.js -u http://www.google.com -c 100 -w 6"
+  },
+  "author": "assert.istrue",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "request": "^2.88.0"
+  }
+}
